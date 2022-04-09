@@ -2,7 +2,7 @@
 function my_print($str){
 	print($str . "<br/>");
 }
-//task 0
+echo "</br>task 0</br>";
 
 CONST test_const = 'asd';
 $user_name = "Vlad";
@@ -17,7 +17,8 @@ function say_hi()
     echo 'hi</br>';
 }
 
-//task 1
+echo "</br>task 1</br>";
+
 $user_name = "Vlad";
 $age = 24;
 function say_name($name)
@@ -36,7 +37,7 @@ say_name($user_name);
 say_age($age);
 say_symbols();
 
-//task 2
+echo "</br>task 2</br>";
 
 CONST imgs = 80;
 CONST fel_pen = 23;
@@ -49,7 +50,7 @@ function get_paint_count()
 }
 get_paint_count();
 
-//task 3
+echo "</br>task 3</br>";
 
 $age = rand(0,200);
 function get_age_fact($age)
@@ -67,7 +68,7 @@ function get_age_fact($age)
 }
 get_age_fact($age);
 
-//task 4
+echo "</br>task 4</br>";
 
 $day = rand(0, 7);
 function get_day_info($day)
@@ -101,7 +102,7 @@ function get_day_info($day)
 }
 get_day_info($day);
 
-//task 5
+echo "</br>task 5</br>";
 
 $bmw = [
 	"name" => "bmw",
@@ -134,7 +135,7 @@ get_car_info($bmw);
 get_car_info($toyota);
 get_car_info($opel);
 
-//task 6
+echo "</br>task 6</br>";
 
 function get_table(){
 	echo "<table style=\"border: 1px solid #000000;\">";
