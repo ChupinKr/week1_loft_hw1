@@ -104,36 +104,33 @@ get_day_info($day);
 
 echo "</br>task 5</br>";
 
-$bmw = [
-	"name" => "bmw",
+$cars = [
+	"bmw" => [
 	"model" => "X25",
 	"speed" => 500,
 	"doors" => 4,
-	"year" => 2045,
-];
-$toyota = [
-	"name" => "toyota",
+	"year" => 2045],
+	
+	"opel" => [
 	"model" => "T21",
 	"speed" => 20,
-	"doors" => 1,
-	"year" => 1789,
-];
-$opel = [
-	"name" => "opel",
+	"doors" => 2,
+	"year" => 1555],
+	
+	"toyota" => [
 	"model" => "OX431",
-	"speed" => 30,
+	"speed" => 500,
 	"doors" => 3,
-	"year" => 2000,
+	"year" => 1444],
 ];
 
-function get_car_info($car){
-	my_print("Car " . $car["name"]);
-	my_print($car["model"] . " " . $car["speed"] . " " . $car["doors"] . " " . $car["year"]);
+function get_cars_info($cars){
+	foreach($cars as $car => $value){
+		echo $car . "</br>" . implode(' ', $value). "</br>". "</br>";
+	}
 }
 
-get_car_info($bmw);
-get_car_info($toyota);
-get_car_info($opel);
+get_cars_info($cars);
 
 echo "</br>task 6</br>";
 
