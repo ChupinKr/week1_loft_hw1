@@ -137,13 +137,13 @@ get_car_info($opel);
 //task 6
 
 function get_table(){
-	echo "<table style=\"border: 1px solid #777;\">";
+	echo "<table style=\"border: 1px solid #000000;\">";
 	echo "<tbody>";
 	for($i = 1; $i < 11; $i++){
 		echo "<tr>";
 		for($j = 1; $j < 11; $j++){
 			$r = $i * $j;
-			echo "<td style=\"border:1px solid #777;min-width:25px;text-align:center;\">";
+			echo "<td style=\"border:1px solid #000000;min-width:25px;text-align:center;\">";
 			if ($r % 2 == 0) 
 			{ 
 				$r = '(' . $r . ')'; 
