@@ -14,7 +14,7 @@ function show_something()
 }
 function say_hi()
 {
-    'hi';
+    echo 'hi</br>';
 }
 
 //task 1
