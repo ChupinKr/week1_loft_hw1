@@ -144,10 +144,10 @@ function get_table(){
 		for($j = 1; $j < 11; $j++){
 			$r = $i * $j;
 			echo "<td style=\"border:1px solid #000000;min-width:25px;text-align:center;\">";
-			if ($r % 2 == 0) 
+			if (($i % 2) == 0 && ($k % 2) == 0) 
 			{ 
 				$r = '(' . $r . ')'; 
-			} elseif ($r % 2 != 0) 
+			} elseif ($i % 2) != 0 && ($k % 2) != 0) 
 			{ 
 				$r = '[' . $r . ']'; 
 			} 
